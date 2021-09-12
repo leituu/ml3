@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <div id="container">
-        <div class="navbar">
+    <div id="container-1">
+        <div class="navbar-1">
             <!-- logo + direccion -->
             <div class="col-1">
                 <div class="logo"><a href="#"><img src="img/logo__large_plus.png" alt=""></a></div>
@@ -23,7 +20,7 @@
                     <div class="loc"><span class="material-icons-outlined">place</span></div>
                     <div class="dir">
                         <div class="dir-1">Enviar a Johny</div>
-                        <div class="dir-2">leandro n. Alem 823</div>
+                        <div class="dir-2">Mamichula Estudio</div>
                     </div>
                 </div>
             </div>
@@ -66,6 +63,43 @@
         </div>
 
     </div>
+    <!-- carousel -->
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
 
+        <div class="img-cont">
+            <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="img/D_NQ_762533-MLA47357880602_092021-OO.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/D_NQ_820402-MLA47308388404_082021-OO.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/D_NQ_874692-MLA47341840120_092021-OO.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/D_NQ_920874-MLA47356803112_092021-OO.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/D_NQ_973985-MLA47357285967_092021-OO.webp">
+                </div>
+                <div class="mySlides fade">
+                    <img src="img/D_NQ_999455-MLA47411517765_092021-OO.webp">
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                        <!-- The dots/circles -->
+                <div class="dot-cont">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+        </div>
+    </div>
 </body>
 </html>
