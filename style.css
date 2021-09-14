@@ -16,6 +16,7 @@
 body {
     margin: 0;
     font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    background-color: #ebebeb;
 }
 
 .navbar-1 {
@@ -23,7 +24,8 @@ body {
     background-color: var(--amarillo);
     justify-content: center;
     padding-top: 8px;
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
+    box-shadow: 0px 0.5px 2px rgba(51,51,51,.3);
 
 }
 
@@ -257,3 +259,50 @@ to {opacity: 1}
 from {opacity: .4}
 to {opacity: 1}
 }
+
+
+/* opciones de pago y promociones */
+
+.pago-cont {
+    height: 90px;
+}
+
+.pago-opc {
+    margin: auto;
+    display: flex;
+    margin-top:20px;
+    width: fit-content;
+    box-shadow: 0px 0.5px 2px rgba(51,51,51,.3);
+    background-color: #fff;
+    padding:20px 20px 20px 0;
+    border-radius: 4px;
+}
+
+.opc {
+    display: flex;
+}
+
+.opc-1 {
+    padding-left: 20px;
+}
+
+.opc-alt {
+    padding-left: 80px;
+}
+
+.pago-text {
+    padding-left: 20px;
+}
+
+.pago-tit {
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.pago-subt {
+    font-size: 14px;
+    color: #3483fa;
+    padding-top: 3px;
+}
+
+
